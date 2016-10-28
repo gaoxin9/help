@@ -1,0 +1,150 @@
+#login{
+	width: 1263px;
+	height: 563px;
+	overflow: hidden;
+}
+#login_left{
+	width: 351px;
+	height: 427px;
+	background: #ffffff;
+	float: left;
+	margin-left:182px;
+	margin-top: 36px;
+	
+}
+#login_left li{
+	float: left;
+	padding: 0 8px ;
+}
+.style{
+	display: block;
+	width: 130px;
+	height: 30px;
+	border: 1px solid #888888;
+	position: relative;
+	cursor: pointer;
+	
+}
+#login_left span{
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: #888;
+	margin-right: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+}
+#login_left img{
+	margin: 7px 0 0 6px;
+}
+#login_left .tttt{
+	margin:  5px 0 0 28px;
+	font-size: 13px;
+}
+.active{
+	color: #992942;
+	border: 2px solid #992942;
+}
+#login_left .active1{
+	background: #992942;
+}
+
+#tab{
+	width: 351px;
+	height: 398px;
+	margin-top:60px ;
+	overflow: hidden;
+	position: relative;
+}
+#con{
+	position: absolute;
+	top:0px;
+}
+#tab1 dt{
+	float: left;
+}
+#tab1 dd{
+	width: 80px;
+	height: 5px;
+	background: red;
+	float: left;
+}
+#tab1 input{
+	width: 245px;
+	height: 35px;
+}
+#psd,#psd1{
+	margin-top: 12px;
+}
+#strange li,#strange1 li{
+	margin:0 27px ;
+}
+#intensity li,#intensity1 li{
+	height: 6px;
+	width:69px;
+	background: #b2b2b2;
+}
+#intensity .active2,#intensity1 .active2{
+	background: red;
+}
+#strange,#strange1 {
+	margin-top: 20px;
+}
+#nextpsd,#nextpsd1{
+	margin-top: 25px;
+}
+#submit,#submit1{
+	cursor: pointer;
+}
+#tab2{
+	width: 351px;
+	height: 427px;
+	margin-top: 109px;
+	position: relative;
+}
+#tab2 input{
+	border: none;
+	margin-top: 8px;
+	width: 150px;
+}
+#tab2 i{
+	display: block;
+	height: 36px;
+	width: 80px;
+	background: #972a41;
+	float: right;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 36px;
+	font-style: normal;
+	font-weight: bold;
+}
+#ma{
+	position: absolute;
+	top: 71px;
+	left: 84px;
+}
+#text{
+	overflow-y: scroll;
+	width: 453px;
+	height: 142px;
+	border: 1px solid #e7e3e2;
+	color: #888;
+	font-size: 13px;
+	margin-top: 115px;
+	margin-right:200px ;
+	float: right;
+}
+#vip{
+	float: right;
+	width: 384px;
+	height:141px;
+	margin:37px 270px 0 0;
+}
+#vip li{
+	list-style: disc;
+	list-style-position:inside ;
+	font-size: 12px;
+}

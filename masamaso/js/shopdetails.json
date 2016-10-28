@@ -1,0 +1,72 @@
+[{
+	"pid":"0",
+	"url":["../images/shop1.jpg","../images/shop2.jpg","../images/shop3.jpg","../images/shop4.jpg","../images/shop5.jpg","../images/shop6.jpg"],
+	"title":"活力条纹系列/色织/纯棉/深灰/条纹/休闲衬衫",
+	"price":"258",
+	"yuanjia":"439",
+	"speciality":"百分百棉",
+	"size":{
+		"size1":[39,40,41,42,43],
+		"size2":["165/88A","170/92A","175/96A","180/100A","185/104A"]
+	}
+},{
+	"pid":"1",
+	"url":["../images/shop7.jpg","../images/shop8.jpg","../images/shop9.jpg","../images/shop10.jpg","../images/shop11.jpg","../images/shop12.jpg"],
+	"title":" 净色系列/绣花/13.24%麻 混纺/浅蓝/净色/休闲衬衫",
+	"price":"259",
+	"yuanjia":"579",
+	"speciality":"86.76%棉13.24%亚麻",
+	"size":{
+		"size1":[39,40,41,42,43],
+		"size2":["165/88A","170/92A","175/96A","180/100A","185/104A"]
+	}
+	
+},{
+	"pid":"2",
+	"url":["../images/shop13.jpg","../images/shop14.jpg","../images/shop15.jpg","../images/shop16.jpg","../images/shop17.jpg","../images/shop18.jpg"],
+	"title":"欧式经典牛津纺/色织/纯棉/水绿/休闲衬衫",
+	"price":"258",
+	"yuanjia":"439",
+	"speciality":"100%棉",
+	"size":{
+		"size1":[39,40,41,42,43],
+		"size2":["165/88A","170/92A","175/96A","180/100A","185/104A"]
+	}
+	
+},{
+	"pid":"3",
+	"url":["../images/shop19.jpg","../images/shop20.jpg","../images/shop21.jpg","../images/shop22.jpg","../images/shop23.jpg","../images/shop24.jpg"],
+	"title":"时尚潮男系列/胶印/棉氨/白色/印花/长T",
+	"price":"169",
+	"yuanjia":"719",
+	"speciality":"93%棉 7%氨纶",
+	"size":{
+		"size1":["M","L","XL","XXL"],
+		"size2":["170/92A","175/96A","180/100A","185/104A"]
+	}
+	
+},{
+	"pid":"14",
+	"url":["../images/shop19.jpg","../images/shop20.jpg","../images/shop21.jpg","../images/shop22.jpg","../images/shop23.jpg","../images/shop24.jpg"],
+	"title":"时尚潮男系列/胶印/棉氨/白色/印花/长T",
+	"price":"169",
+	"yuanjia":"719",
+	"speciality":"93%棉 7%氨纶",
+	"size":{
+		"size1":["M","L","XL","XXL"],
+		"size2":["170/92A","175/96A","180/100A","185/104A"]
+	}
+	
+},{
+	"pid":"19",
+	"url":["../images/shop7.jpg","../images/shop8.jpg","../images/shop9.jpg","../images/shop10.jpg","../images/shop11.jpg","../images/shop12.jpg"],
+	"title":" 净色系列/绣花/13.24%麻 混纺/浅蓝/净色/休闲衬衫",
+	"price":"259",
+	"yuanjia":"579",
+	"speciality":"86.76%棉13.24%亚麻",
+	"size":{
+		"size1":[39,40,41,42,43],
+		"size2":["165/88A","170/92A","175/96A","180/100A","185/104A"]
+	}
+	
+}]

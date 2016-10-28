@@ -1,0 +1,424 @@
+
+#carousel{
+	height: 500px;
+}
+#c_top img{
+	width: 1240px;
+	height: 500px;
+}
+#bottom img{
+	width: 146px;
+	height: 41px;
+}
+#c_top li{
+	display: none;
+}
+#c_top .active4{
+	display: inline;
+}
+#bottom li{
+	float: left;
+}
+#bottom{
+	position: absolute;
+	left:392px;
+	top: 640px;
+}
+#bottom li{
+	margin-left: 10px;
+}
+.active5{
+	border: 1px solid #990101; 
+}
+#roll{
+	width: 1194px;
+	height: 31px;
+	background: #f2f2f2;
+	margin:20px 0 0 32px;
+	overflow: hidden;
+}
+#roll li{
+	float: left;
+	
+}
+.gund li{
+	margin:  0 32px;
+	cursor: pointer;
+}
+.gund{
+	width: 3000px;
+	height: 31px;
+	position: absolute;
+	margin-left: 60px;
+	left: 0px;
+}
+.gund a{
+	line-height: 32px;
+}
+.gund a:hover{
+	text-decoration: none;
+}
+.active6{
+	color: red;
+}
+#total1{
+	width: 1134px;
+	height: 31px;
+	position: relative;
+	margin-left: 60px;
+	overflow: hidden;
+}
+#glide{
+	height: 545px;
+	width: 1195px;
+	margin-top: 45px;
+	border-top:1px solid #CCCCCC;
+	margin-left: 35px;
+}
+#glide span{
+	display: block;
+	width: 142px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+	top:795px;
+	left: 580px;
+	background: #ffffff;
+}
+#slide{
+	height: 468px;
+	width: 1195px;
+	margin-top: 36px;
+}
+.type{
+	width: 135px;
+	height: 468px;
+	background: url(../images/c4.jpg) no-repeat;
+	background-size:781px 468px ;
+	position: relative;
+	float: left;
+	z-index: 1;
+}
+.type_bottom{
+	width: 135px;
+	height: 275px;
+	background: #ffffff;
+	position: absolute;
+	left: 0;
+	top:193px;
+	float: right;
+}
+.type_top{
+	height:193px;
+	width: 135px;
+	background: url(../images/b4.jpg) no-repeat;
+	background-size: 135px 193px;
+	float: left;
+}
+.type_top img{
+	height:193px;
+	width: 135px;
+}
+.font_top{
+	font-size: 20px;
+	width:100%;
+	text-align: center;
+	margin-top: 25px;
+}
+.font_mid{
+	font-size:13px ;
+	font-family: helvetica;
+	line-height: 22px;
+	width: auto;
+	padding: 10px;
+}
+.font_bottom{
+	width: 100%;
+	text-align: center;
+	font-size:14px;
+	margin-top: 5%;
+}
+#show{
+	width: 1195px;
+	height: 875px;
+	position: relative;
+	margin-left: 35px ;
+	border-top:1px solid #CCCCCC;
+	margin-top: 20px;
+	z-index: 1;
+	border-bottom:1px solid #CCCCCC;
+}
+#show span{
+	display: block;
+	width: 142px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+	left: 544px;
+	top: -14px;
+	background: #ffffff;
+}
+#show_top li{
+	font-size: 13px;
+	float: left;
+	margin: 0 15px;
+	cursor: pointer;
+}
+#show_top{
+	margin: 35px 0 0 375px ;
+}
+#show .botto{
+	display: block;
+	width: 142px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+	left: 544px;
+	top: 861px;
+	background: #ffffff;
+	z-index: 4;
+}
+#show_bottom{
+	width: 9560px;
+	height: 780px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	
+}
+#tot{
+	width: 1195px;
+	height: 780px;
+	overflow: hidden;
+	position: relative;
+}
+.box{
+	width: 1195px;
+	height: 780px;
+	margin-top: 25px;
+	float: left;
+}
+.box dl{
+	float: left;
+	margin: 0 3px;
+	margin-bottom: 15px;
+}
+.box dd{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 190px;
+	text-align: center;
+	margin-left: 15px;
+	font-size: 13px;
+	color: #666;
+}
+.box .weight{
+	font-weight: bold;
+	color: #000000;
+}
+.active7{
+	font-weight: bold;
+}
+.active8{
+	font-weight: normal;
+}
+#theme{
+	width: 1195px;
+	height: 829px;
+	margin-left: 35px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	
+}
+.picc{
+	margin-top: 35px;
+	float: left;
+	overflow: hidden;
+}
+.picc1{
+	float: left;
+	margin: 35px 0 0 15px;
+	overflow: hidden;
+}
+.picc2{
+	float: left;
+	margin-top:20px ;
+	overflow: hidden;
+}
+.picc3{
+	float: left;
+	margin-top:20px ;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.picc4{
+	float: left;
+	margin-top:20px ;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.rela{
+	position: relative;
+}
+#theme span{
+	display: block;
+	width: 230px;
+	height: 75px;
+	float: left;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	bottom: 25px;
+	opacity: 0.7;
+}
+#theme p,#sutra p{
+	display: block;
+	width: 230px;
+ 	text-align: center;
+ 	cursor: pointer;
+}
+#theme a:hover img{
+	 transform: scale(1.1, 1.1);
+  transition: 3s transform;
+}
+#sutra{
+	height: 873px;
+	width: 1195px;
+	margin-left: 35px;
+	overflow: hidden;
+	margin-top:50px ;
+	clear: both;
+	border-top:1px solid #CCCCCC;
+	position: relative;
+}
+#show i{
+	display: block;
+	width: 142px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+	left: 544px;
+	top:1741px;
+	background: #ffffff;
+	font-style: normal;
+}
+.picc5{
+	float: left;
+	margin-top: 35px;
+	overflow: hidden;
+}
+.picc6{
+	float: left;
+	margin-top: 35px;
+	margin-left: 14px;
+	overflow: hidden;
+}
+.picc7{
+	float: left;
+	margin-top: 35px;
+	margin-left: 14px;
+	overflow: hidden;
+}
+.picc8{
+	float: left;
+	margin-top: 23px;
+	overflow: hidden;
+}
+.picc9{
+	float: left;
+	margin-top: 23px;
+	margin-left: 12px;
+	overflow: hidden;
+}
+#sutra span{
+	display: block;
+	width: 230px;
+	height: 75px;
+	float: left;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	bottom: 25px;
+	opacity: 0.7;
+}
+#sutra a:hover img{
+	 transform: scale(1.1, 1.1);
+  	transition: 3s transform;
+}
+#fashion{
+	height: 723px;
+	width: 1195px;
+	margin-left: 35px;
+	border-top:1px solid #ccc ;
+}
+#show .fashion{
+	display: block;
+	width: 142px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+	left: 544px;
+	top:2616px;
+	background: #ffffff;
+	font-style: normal;
+}
+#fashion dl{
+	width: 500px;
+	height: 685px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 35px;
+}
+#fashion dd{
+	font-size: 14px;
+	width: 420px;
+	height: 60px;
+	font-family: "微软雅黑";
+}
+#fashion .tupian{
+	float: left;
+}
+#foot_pic{
+	margin-left: 35px;
+	position: relative;
+	overflow: hidden;
+}
+#foot_pic span{
+	display: block;
+	width: 360px;
+	height: 120px;
+	position: absolute;
+	top: 25px;
+	left: 670px;
+}
+#foot_pic a:hover img{
+	transform: scale(1.1, 1.1);
+  transition: 3s transform;
+}
+.active9{
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: black;
+	color: #fff;
+}
+#navigation_top .active10{
+	color: #fff;
+}

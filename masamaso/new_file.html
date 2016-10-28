@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+$(arr).each(function(){
+							console.log(arr.pid)
+							if(this.pid==pid){
+								alert(1)
+							}else{
+								var obj = {
+						 			pid:pid,
+						 			pic:pic,
+						 			size:size,
+						 			yuanjia:yuanjia,
+						 			xianjia:xianjia,
+						 			num:num,
+						 			title:title
+						 		}
+					 			listArr.push(obj); //把数据添加进去
+					 		jsonStr = JSON.stringify(listArr); //
+					 		$.cookie("data",jsonStr)
+					 		console.log(window.decodeURIComponent(document.cookie))
+							}
+						})

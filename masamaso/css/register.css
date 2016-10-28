@@ -1,0 +1,79 @@
+#total{
+	width: 1269px;
+}
+#total{
+	height: 567px;
+	background: url(../images/bgpic.jpg) no-repeat;
+	background-position: -300px 0;
+	position: relative;
+	-webkit-filter:blur(5px)
+}
+#box{
+	width: 300px;
+	position: relative;
+	height: 480px;
+	background: #f3f8fc;
+	position: absolute;
+	left: 600px;
+	top: 35px;
+	box-shadow: -20px 5px 2px #C0C0C0; 
+	overflow: hidden;
+}
+.ttt{
+	width: 244px;
+	height: 30px;
+	margin:5px 0 5px 30px;
+}
+.tt{
+	margin:16px 0 0 32px;
+}
+#box span{
+	font-size: 12px;
+	color: #888888;
+}
+#box form a{
+	float: left;
+	padding: 0 6px;
+	display: block;
+	height: 13px;
+	line-height: 13px;
+	text-decoration: underline;
+}
+#box form ul{
+	position: absolute ;
+	top: 183px;
+	left: 115px;
+	width: 126px;
+}
+#box .pic1{
+	cursor: pointer;
+	margin: 15px 0 0 32px;
+	
+}
+.box_bottom{
+	width: 240px;
+	height: 173px;
+	border-top:1px solid #d9d9d9;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#box .box_bottom a{
+	display: block;
+	width: 47px;
+	height: 45px;
+	float: left;
+	margin: 0 7px 25px 7px;
+}
+#box .box_bottom ul{
+	width: 250px;
+	height: 112px;
+	margin: 10px 0 0 10px;
+}
+.t1{background: url(../logo/log5.png) no-repeat; background-position: 0px 0 ;}
+.t2{background: url(../logo/log5.png) no-repeat; background-position: -59px 0 ;}
+.t3{background: url(../logo/log5.png) no-repeat; background-position: -118px 0 ;}
+.t4{background: url(../logo/log5.png) no-repeat; background-position: -177px 0 ;}
+.t5{background: url(../logo/log5.png) no-repeat; background-position: 0px -65px ;}
+.t6{background: url(../logo/log5.png) no-repeat; background-position: -59px -65px ;}
+.t7{background: url(../logo/log5.png) no-repeat; background-position: -118px -65px ;}
+.t8{background: url(../logo/log5.png) no-repeat; background-position: -177px -65px ;}

@@ -1,0 +1,403 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+fieldset, img { border:none; }
+
+img{display: block;}
+
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; } 
+body { color:#333; font:12px/20px "SimSun","微软雅黑","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+
+a { color:#666; text-decoration:none; }
+
+a:visited { color:#666; }
+
+a:hover, a:active, a:focus { text-decoration:underline; }
+#top,#logo,#navigation,#pic_mid,#foot_top,#foot_bottom{
+	width: 1263px;
+}
+#top{
+	height: 42px;
+}
+#top li{
+	float: left;
+	margin-top:14px;
+	padding:0 12px 0 13px;
+	border-right:1px solid #b299b2 ;
+	height: 15px;
+	font-size: 12px;
+	line-height: 15px;
+	color: #999999;
+}
+#top ul{
+	margin-left: 38px;
+}
+#top a{ 
+	color: #999999;
+}
+#logo{
+	height: 120px;
+	background: url(../img/logo2.png) no-repeat  ;
+	background-position: 550px 32px; 
+}
+#logo input{
+	width: 126px;
+	height: 20px;
+	padding-left: 26px;
+	font-size: 13px;
+	color: #a9a9a9;
+	border: 1px solid #959595;
+	
+	
+}
+#search{
+	width: 156px;
+	height: 17px;
+	position: relative;
+	margin-right: 42px;
+	float: right;
+}
+#logo img{
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	
+}
+#logo img:hover{
+	cursor: pointer;
+}
+#navigation{
+	height: 51px;
+	cursor: pointer;
+}
+#navigation_top{
+	height: 34px;
+	width: 1228px;
+	z-index: 4;
+}
+#navigation_bottom{
+	float: left;
+	width: 1228px;
+	height: 31px;
+	overflow: hidden;
+}
+#navigation a{
+	line-height: 34px;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+#navigation_top ul{
+	margin-left: 36px;
+}
+#navigation_top a{
+	margin: 0 12px;
+	float: left;
+	position: relative;
+}
+#navigation_top img{
+	position: absolute;
+	left: 56px;
+	top: 4px;
+}
+#navigation_bottom a{
+	padding: 0 17px;
+	line-height: 31px;
+	font-size:12px ;
+	float: left;
+	position: relative;
+}
+#navigation_bottom:hover{
+	background: black;
+	transition: all 1s;
+}
+#navigation_bottom img{
+	display: inline-block;
+	margin-bottom:2px ;
+}
+.margin52{
+	margin-right: 52px;
+}
+#pic_mid{
+	height: 217px;
+	background: #343434;
+	overflow: hidden;
+}
+#pic_mid img{
+	margin-top: 100px;
+}
+#foot{
+	height: 274px;
+	background: #343434;
+}
+#foot_top{
+	height: 208px;
+}
+#foot_top dl{
+	float: left;
+	margin-left: 62px;
+}
+#foot_top dt{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #fff;
+}
+#foot_top dd{
+	margin-top: 10px;
+	font-size: 13px;
+	font-family: "微软雅黑";
+	color: #a2a2a2;
+}
+#foot_bottom{
+	height: 75px;
+}
+#foot_bottom li{
+	float: left;
+}
+#foot_bottom a{
+	padding: 0 17px;
+	border-right: 1px solid #566656;
+	
+}
+#foot a:hover{
+	color: #e0e0e0;
+}
+.arr{
+				position: absolute;
+				top:14px;
+				right:8px;
+				border-width: 4px;
+				border-style:solid dashed dashed dashed;
+				border-color: #000 transparent transparent transparent; 
+			}
+.arr1 {
+	position: absolute;
+				top:14px;
+				right:8px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #fff;
+}
+#pddown{
+	width: 1197px;
+	height: 232px;
+	background: red;
+	position: absolute;
+	top:213px;
+	left:32px;
+}
+#navigation_bottom dl{
+	background: green;
+	height: 217px;
+	float: left;
+	width: 70px;
+}
+#navigation_bottom dd{
+	font-size: 13px;
+	text-align: center;
+	font-family: "微软雅黑";
+	margin: 6px 0;
+}
+#carousel{
+	width: 1240px;
+}
+#fix_right{
+	width: 35px;
+	height: 300%;
+	background: #1e1e1e;
+	position: fixed;
+	left: 97%;
+	z-index: 2;
+}
+#rela{
+	position: relative;
+}
+#fix_right p{
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+#cart p{
+	margin-top: 30px;
+}
+#cart{
+	height: 134px;
+	width: 35px;
+	position: fixed;
+	top:210px;
+	cursor: pointer;
+}	
+#cart img{
+	position: absolute;
+	left: 9px;
+	top:14px;
+	height: 16px;
+	width: 16px;
+}
+.cir{
+	height: 21px;
+	width: 21px;
+	background: #990101;
+	border-radius: 100%;
+	margin: 5px 0 0 7px;
+	text-align: center;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: bold;
+}
+#money{
+	width: 35px;
+	height: 84px;
+	position: relative;
+	position: fixed;
+	top:344px;
+}
+#money img{
+	position: absolute;
+	top:12px;
+	left:9px;
+}
+#money p{
+	position: absolute;
+	top:32px;
+	left:5px;
+}
+#cir1{
+	position: absolute;
+	top:52px;
+}
+#indent{
+	height: 56px;
+	width: 35px;
+	position: relative;
+	position: fixed;
+	top:428px;
+}
+#indent img,#collect img,#phone img,#service img,#skip img{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 8px;
+	left: 11px;
+}
+#indent p,#collect p,#phone p,#service p,#skip p{
+	margin-top: 30px;
+}
+#collect{
+	height: 55px;
+	width: 35px;
+	position: fixed;
+	top: 484px;
+}
+#phone{
+	height: 70px;
+	width: 35px;
+	position: fixed;
+	top: 539px;
+	background: red;
+}
+#service{
+	height: 64px;
+	width: 35px;
+	position: fixed;
+	top: 86%;
+}
+#skip{
+	height: 54px;
+	width: 35px;
+	position: fixed;
+	top: 93%;
+	cursor: pointer;
+}
+#logo{
+	background: url(../img/logo1.png) no-repeat  ;
+	background-position: 550px 32px; 
+}
+#fix_right .mycart{
+	position: fixed;
+	top:210px;
+	left: 70%;
+	width: 128px;
+	height: 36px;
+	opacity: 0;
+	background: #990101;
+	line-height: 36px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+#fix_right .mymoney{
+	position: fixed;
+	width: 130px;
+	height: 32px;
+	left: 80%;
+	opacity: 0;
+	top: 350px;
+	background: #990101;
+	line-height: 36px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+#fix_right .myindent{
+	position: fixed;
+	width: 130px;
+	height: 32px;
+	left: 80%;
+	opacity: 0;
+	top: 430px;
+	background: #990101;
+	line-height: 36px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+#fix_right .mycollect{
+	position: fixed;
+	width: 130px;
+	height: 32px;
+	left: 80%;
+	opacity: 0;
+	top: 490px;
+	background: #990101;
+	line-height: 36px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+#fix_right .myservice{
+	position: fixed;
+	width: 127px;
+	height: 48px;
+	left: 80%;
+	opacity: 0;
+	top: 800px;
+	background: #990101;
+	line-height: 14px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+}
+#fix_right .mytop{
+	position: fixed;
+	width: 130px;
+	height: 32px;
+	left: 80%;
+	opacity: 0;
+	top: 870px;
+	background: #990101;
+	line-height: 36px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
